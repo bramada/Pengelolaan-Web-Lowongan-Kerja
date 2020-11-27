@@ -9,13 +9,13 @@ switch ($view) {
 	case 'appliedjobs' :
 	    $title="Profil";	
         $_SESSION['appliedjobs']	='active' ; 
-		$content ='Profil.php';
+		$content ='profil.php';
 		break;
 
 	case 'notification' :
 	    $title="Profil";	
         $_SESSION['notification']	='active' ; 
-		$content ='Profil.php';
+		$content ='profil.php';
 		break;
 
 	case 'print' :
@@ -26,13 +26,13 @@ switch ($view) {
 	case 'accounts' : 
 	    $title="Profil";	
         $_SESSION['accounts']	='active' ;
-        $content ='Profil.php';
+        $content ='profil.php';
 		break;
 	 
 	default : 
-	    $title="Profile";	
+	    $title="Profil";	
         $_SESSION['appliedjobs']	='active' ;
-		$content ='Profil.php';		
+		$content ='profil.php';		
 }
 require_once("../theme/templates.php");
 ?>
